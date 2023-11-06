@@ -1,0 +1,220 @@
+@media only screen and (max-width: 768px) {
+
+    //navbar
+    ul {
+        .navbar-nav {
+            .nav-container {
+                padding-left: 10px;
+            }
+        }
+    }
+
+
+    //footer
+    footer {
+        .footer-logotype {
+            text-align: $textCenter;
+        }
+
+        .fast-links,
+        .address,
+        .second-line,
+        .location {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            align-items: $textCenter;
+            text-align: $textCenter;
+        }
+
+        .fast-links {
+
+            .info,
+            .regret-button,
+            .qr-image {
+                display: none;
+            }
+        }
+
+    }
+
+
+    //index
+    header {
+        &.header-bg {
+            height: 100vh;
+        }
+
+        img {
+            width: 50%;
+        }
+
+        h2 {
+            font-size: 1em;
+        }
+    }
+
+    .container-boxes {
+        padding: 50px 0;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: $textCenter;
+
+        figure {
+            width: 100%;
+        }
+    }
+
+    .banner {
+        height: 200px;
+
+        h1 {
+            &.slogan {
+                text-align: $textCenter;
+                padding: 20px 30px;
+                color: $mainColor;
+                font-size: 2.1rem;
+
+                span {
+                    text-align: $textCenter;
+                    color: $mainColor;
+                    font-size: 2.1rem;
+                }
+            }
+        }
+    }
+
+    .location {
+        padding: 50px 0 0 0;
+    }
+
+    //actividades
+    .activity-title {
+        input {
+            display: none;
+        }
+
+        h1 {
+            font-size: 1.5em;
+            padding: 50px 0 0 0;
+        }
+    }
+
+    .activity-grid {
+        .activity-column {
+            flex: 50%;
+            max-width: 50%;
+        }
+    }
+
+
+    //planes
+    .pass-title {
+        h1 {
+            font-size: 1.5em;
+        }
+    }
+
+    .plan-container {
+        display: flex;
+        flex-direction: column;
+
+        figure {
+            width: 100%;
+            padding: 0 10px;
+        }
+    }
+
+
+    //calendario
+    .calendar-grid {
+        display: none;
+    }
+
+    .accordion {
+        display: flex;
+        flex-direction: column;
+    }
+
+    button {
+        &.accordion-button {
+            color: $mainColor;
+            font-weight: $textBold;
+            text-transform: $textUppercase;
+
+            &:not(.collapsed) {
+                color: $mainColor;
+                font-weight: $textBold;
+                text-transform: $textUppercase;
+                background-color: $white;
+            }
+        }
+    }
+
+
+    .grid-template-columns-row {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .bg-cal-border {
+        border-radius: 0 10px 10px 0;
+    }
+
+    //contacto
+    form {
+        padding: 50px 25px;
+    }
+
+    //natacion
+    .container-info{
+        figure {
+            p{
+                font-size: small;
+            }
+        }
+    }
+    .sub-types-grid {
+        .sub-types-column {
+            flex: 50%;
+            max-width: 50%;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 425px) {
+    .container {
+        .plan-btn {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            a {
+                &.btn-pay {
+                    width: 100%;
+                    margin-top: 10px;
+
+                }
+            }
+        }
+    }
+
+    //natacion
+    .banner-info{
+        height: 600px;
+        .container-info{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            flex-direction: column;
+            figure {
+                width: 100%;
+                p{
+                    font-size: small;
+                }
+            }
+    }
+    }
+
+}

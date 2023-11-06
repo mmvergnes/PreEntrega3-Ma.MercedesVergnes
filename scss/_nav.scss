@@ -1,0 +1,29 @@
+.my-nav {
+    background: $textColor;
+    background: linear-gradient(180deg, rgba(51, 51, 51, 0.7903536414565826) 62%, rgba(255, 255, 255, 0) 100%);
+
+    a {
+        color: $white;
+        font-weight: 500;
+
+        &:hover {
+            color: $navHover;
+        }
+
+        img {
+            width: 100px;
+            height: auto;
+        }
+    }
+
+    svg.bi-list {
+        width: 20px;
+        height: 20px;
+        fill: $white;
+    }
+}
+
+.nav-dark {
+    @extend .my-nav;
+    background-color: $textColor;
+}

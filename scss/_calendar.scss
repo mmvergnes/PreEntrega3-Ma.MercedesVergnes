@@ -1,0 +1,56 @@
+.activity-per-hour {
+    ul {
+        padding-left: 0;
+
+        li {
+            list-style-type: none;
+            text-align: $textLeft;
+        }
+    }
+}
+
+.none-activity {
+    background-color: $noneActivity;
+}
+
+.grid {
+    width: 100%;
+    display: grid;
+}
+
+.grid-template-columns-row {
+    grid-template-columns: 1fr repeat(6, 2fr);
+    grid-template-rows: 50px;
+    row-gap: 10px;
+
+    .week {
+        color: $mainColor;
+        font-weight: $textBold;
+        text-transform: $textUppercase;
+    }
+
+    .bg-cal-blue {
+        background-color: $mainColor;
+        color: $white;
+        font-weight: $textRegular;
+        border-radius: 10px 0 0 10px;
+        padding: 20px 0;
+    }
+
+    .bg-cal-border {
+        border: 1px solid $mainColor;
+        padding-left: 10px;
+        display: flex;
+        align-items: $textCenter;
+        justify-content: flex-start;
+    }
+
+    .bg-cal-border-last {
+        border: 1px solid $mainColor;
+        border-radius: 0px 10px 10px 0px;
+    }
+}
+
+.accordion {
+    display: none;
+}

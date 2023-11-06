@@ -1,0 +1,107 @@
+// header
+header {
+    width: 100%;
+    height: auto;
+
+    &.header-bg {
+        background-image: url('../img/header.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center top;
+        height: 100vh;
+        min-height: 40vh;
+        padding-top: 230px;
+    }
+
+    img {
+        width: 30%;
+        animation-name: textAlpha;
+        animation-duration: 3s;
+        animation-timing-function: ease;
+    }
+
+    h2 {
+        color: $white;
+        animation-name: textAlpha;
+        animation-duration: 5s;
+        animation-timing-function: ease;
+    }
+}
+
+
+//boxes
+.container-boxes {
+    padding: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+
+    figure {
+        width: 30%;
+        padding: 10px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: $textCenter;
+        align-items: center;
+
+        img {
+            width: 30%;
+            height: auto;
+        }
+
+        p {
+            text-align: $textCenter;
+        }
+    }
+
+    figcaption {
+        padding: 20px 0;
+    }
+}
+
+
+//slogan
+.banner {
+    background: linear-gradient(22deg, rgba(100, 169, 223, 1) 0%, $white 100%);
+    height: 400px;
+    display: flex;
+    justify-content: $textCenter;
+    align-items: $textCenter;
+
+    h1 {
+
+        &.slogan,
+        span {
+            color: $mainColor;
+        }
+    }
+}
+
+
+//location
+.location {
+    width: 100%;
+    padding: 100px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: $textCenter;
+    align-items: $textCenter;
+
+    .location-txt,
+    .social-media-txt {
+        padding-bottom: 50px;
+        text-align: $textCenter;
+    }
+
+    h2 {
+        padding-bottom: 20px;
+    }
+}
+
+iframe {
+    border: 0;
+    width: 100%;
+    height: 600px;
+}

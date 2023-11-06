@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Seleccioná el plan que se ajuste a tu medida.">
+    <title>Uno Bahía Club | Planes Uno Pass</title>
+    <!-- link a favicon -->
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <!-- fuente -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- hoja de estilos -->
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg nav-dark">
+        <div class="container">
+            <a class="navbar-brand" href="/index.html">
+                <img src="../img/logo-ubc.svg" alt="UBC logotype">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                </svg>
+            </button>
+        </div>
+    </nav>
+    <!-- ends nav -->
+
+    <main>
+        <section class="pass-title text-center mt-5">
+            <h1 class="text-bold"><span id="lblNombre"></span><br> adquirí tu pack online</h1>
+            <a href="#">¿Qué es UNO Pass?</a>
+        </section>
+        <section id="packs" class="plan-container py-5 px-5">
+            <figure id="pack1">
+                <img class="box" src="../img/box-recarga.png" alt="Box recarga">
+                <figcaption><span class="text-bold">Hasta 20 clases</span> para utilizar cuando quieras.</figcaption>
+                <h2 class="pack-1 text-bold">$6.000.-</h2>
+
+                <button type="button" id="logIn" class="buy-btn uppercase-font" data-bs-toggle="modal">Comprar</button>
+            </figure>
+        </section>
+
+
+        <section class="social-media text-center">
+            <h2 class="social-media-txt text-bold">Seguinos en nuestras redes</h2>
+            <div class="container-social-media">
+                <div class="icon-social-media">
+                    <a href="https://www.facebook.com/unobahiaclub" target="_blank">
+                        <img src="../img/facebook.png" alt="Icono de Facebook">
+                    </a>
+                </div>
+                <div class="icon-social-media">
+                    <a href="https://twitter.com/unobahiaclub" target="_blank">
+                        <img src="../img/twitter.png" alt="Icono de Twitter">
+                    </a>
+                </div>
+                <div class="icon-social-media">
+                    <a href="https://www.instagram.com/unobahiaclub/" target="_blank">
+                        <img src="../img/instagram.png" alt="Icono de Instagram">
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- ends main -->
+
+    <footer>
+        <div class="container">
+            <div class="footer-logotype">
+                <a href="#">
+                    <img class="footer-logo" src="../img/logoUNO-blanco-03.webp" alt="UBC logotipo blanco">
+                </a>
+            </div>
+            <div class="fast-links">
+                <div class="address">
+                    <div class="footer-location">
+                        <img src="../img/location-icon.svg" alt="Pin de ubicacion">
+                        <p>Lavalle 605</p>
+                    </div>
+                    <div>
+                        <p class="second-line">Bahía Blanca - Buenos Aires - Argentina</p>
+                    </div>
+                    <div class="footer-location">
+                        <img src="../img/phone-icon.svg" alt="Icono de telefono">
+                        <p>(0291) 450-1012</p>
+                    </div>
+                    <div class="footer-location">
+                        <img src="../img/email-icon.svg" alt="Icono de email">
+                        <a href="info@unobahiaclub.com">info@unobahiaclub.com</a>
+                    </div>
+                </div>
+                <div class="info">
+                    <p class="uppercase-font">Información útil</p>
+                    <p>Información para socios</p>
+                    <ul>
+                        <li><a href="./page-not-found.html">Términos y condiciones</a></li>
+                        <li><a href="./page-not-found.html">Política de privacidad</a></li>
+                        <li><a href="./page-not-found.html">Normas de convivencia</a></li>
+                    </ul>
+                    <p><a href="./page-not-found.html">Sugerencias</a></p>
+                </div>
+                <div class="regret-button">
+                    <a class="uppercase-font" role="button" href="./page-not-found.html">Botón de arrepentimiento</a>
+                </div>
+                <div class="qr-image">
+                    <img class="qr" src="../img/data-fiscal.jpeg" alt="QR de Data Fiscal">
+                </div>
+            </div>
+            <hr>
+            <p class="text-center powered-txt">Powered by <span>MV Design</span></p>
+        </div>
+    </footer>
+
+    <div class="modal fade" id="openLogInModal" tabindex="-1" aria-labelledby="modalTitle" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="pass-title">
+                        <h1 class="text-bold">Pack Recarga</h1>
+                        <a href="./planes-uno-pass.html">Ver más packs</a>
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" data-aos="fade-up">
+                    <div class="row text-center">
+                        <div class="col-12 img-pack">
+                            <img class="box" src="../img/box-recarga.png" alt="Box recarga">
+                        </div>
+                        <div class="col-12">
+                            <h2><span class="text-bold">Hasta 20 clases</span> para utilizar cuando quieras.</h2>
+                            <h2 class="pack-1 text-bold">$6.000.-</h2>
+                            <p>Los créditos se podrán canjear por clases
+                                al momento de reservarlas.
+                                Cada una de las clases tiene su valor en
+                                créditos.
+                                Según el tipo de clase o el horario, su valor
+                                en créditos puede disminuir del valor
+                                nominal, pero nunca una clase puede superar ese valor.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <div class="d-grid gap-2 d-md-block">
+                        <a class="btn btn-primary" href="./page-not-found.html" role="button">Pagar con MP</a>
+                        <button class="btn btn-primary" role="button" data-bs-toggle="modal"
+                            data-bs-target="#cashModal">Pagar en UNO</button>
+                    </div>
+                    <div class="terms-and-conds">
+                        <span>Al confirmar la compra, se aceptan los <a href="./page-not-found.html">términos y
+                                condiciones</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- end modal -->
+
+        <!-- ends footer -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+            crossorigin="anonymous"></script>
+        </script>
+        <script src="./planes-uno-pass.js"></script>
+</body>
+
+</html>

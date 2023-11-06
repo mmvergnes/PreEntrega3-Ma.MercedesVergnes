@@ -1,0 +1,115 @@
+footer {
+    background-color: $textColor;
+
+    .fast-links {
+        display: flex;
+        justify-content: space-between;
+
+        .address {
+            display: flex;
+            flex-direction: column;
+
+            .footer-location {
+                display: flex;
+
+                img {
+                    margin-right: 10px;
+                    width: 15px;
+                    height: auto;
+                }
+
+                a {
+                    color: $white;
+                }
+            }
+        }
+
+        p {
+            color: $white;
+            font-weight: $textRegular;
+            cursor: pointer;
+
+            &.second-line {
+                padding-left: 23px;
+            }
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        ul {
+            li {
+                list-style-type: none;
+                color: $white;
+                font-weight: $textLight;
+                line-height: 25px;
+                padding-left: 15px;
+                cursor: pointer;
+            }
+        }
+
+        img {
+            .qr {
+                padding-right: 0;
+            }
+        }
+    }
+
+    .info {
+        ul {
+            li {
+                a {
+                    color: $white;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        p {
+            a {
+                color: $white;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .regret-button {
+        a {
+            font-size: 17.5px;
+            color: $white;
+        }
+    }
+
+    hr {
+        color: $white;
+        margin: 50px 0 20px 0;
+    }
+
+    p {
+        &.powered-txt {
+            color: $white;
+            font-size: 0.5rem;
+            margin-bottom: 0;
+            padding-bottom: 16px;
+
+            span {
+                font-weight: $textBold;
+                color: $white;
+            }
+        }
+    }
+
+    .qr-image {
+        img {
+            width: 111px;
+        }
+    }
+
+    .footer-logotype {
+        .footer-logo {
+            width: 150px;
+            height: auto;
+        }
+    }
+}

@@ -1,0 +1,114 @@
+.activity-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: $textCenter;
+
+    h1 {
+        font-size: 2rem;
+        padding: 50px 0;
+    }
+
+    input {
+        padding: 10px 10px 10px 10px;
+        border-radius: 10px;
+        border: 1px solid $navHover;
+    }
+}
+
+.activity-grid {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 0px;
+
+    .activity-column {
+        flex: 20%;
+        max-width: 20%;
+
+        img {
+            &.activities {
+                width: 100%;
+                border-radius: 20px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+// natacion
+
+section {
+    width: 100%;
+    height: auto;
+
+    &.header-nat-bg {
+        background-image: url('../img/natacion-full.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center bottom;
+        height: 50vh;
+        min-height: 40vh;
+    }
+}
+
+.swimming {
+    h1 {
+        color: $mainColor;
+    }
+}
+
+.banner-info {
+    background-color: $lightBlue;
+    height: 400px;
+    padding: 50px 0; 
+
+    .container{
+        h3 {            
+            color: $mainColor;
+        }
+    }
+
+    .container-info {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: baseline;
+
+        figure {
+            width: 30%;
+            padding-top: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: $textCenter;
+            align-items: center;
+
+            p {
+                text-align: $textCenter;
+            }
+        }
+    }
+}
+.sub-types-activities{
+    padding: 50px 0;
+    .section-title{
+        font-size: 23px;
+    }
+}
+ .sub-types-grid {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 0px;
+    justify-content: center;
+    .sub-types-column {
+        flex: 20%;
+        max-width: 20%;
+
+        img {
+            &.activities {
+                width: 100%;
+                border-radius: 20px;
+                cursor: pointer;
+            }
+        }
+    }
+ }

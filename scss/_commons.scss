@@ -1,0 +1,98 @@
+* {
+    font-family: $mainFont;
+    color: $textColor;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 10px 0;
+    font-weight: $textRegular;
+}
+
+p {
+    font-size: 1.1em;
+    font-weight: $textRegular;
+}
+
+.text-center {
+    text-align: $textCenter;
+}
+
+.text-right {
+    text-align: $textRight;
+}
+
+.text-left {
+    text-align: $textLeft;
+}
+
+.uppercase-font {
+    text-transform: $textUppercase;
+}
+
+.text-bold {
+    font-weight: $textBold;
+}
+
+
+// social media section
+.social-media {
+    background-color: rgba(51, 51, 51, 0.1);
+    padding: 50px 0;
+    margin-top: -5px;
+
+    h2 {
+        color: $mainColor;
+        text-align: $textCenter;
+    }
+
+    .container-social-media {
+        display: flex;
+        justify-content: $textCenter;
+
+        .icon-social-media {
+            padding: 0 20px;
+
+            img {
+                &:hover {
+                    transform: scale(1.05);
+                }
+            }
+        }
+    }
+}
+
+// Page not found
+.error-title {
+    margin-bottom: 100px;
+    h4 {
+        padding: 50px 0px 10px 0px;
+        color: $mainColor;
+
+        &.error-description{
+            padding: 10px 0 20px 0;
+        }
+    }
+    a {
+        &.btn-back{
+            background: $mainColor;
+            border: 2px solid $mainColor;
+            color: $white;
+            text-decoration: none;
+            border-radius: 20px;
+            padding: 10px 30px;
+        }
+    }
+}
+
+svg{
+    width: 200px;
+    height: auto;
+    fill: $navHover;
+}
+

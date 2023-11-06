@@ -1,0 +1,19 @@
+//mixins
+@mixin shadow($radius, $bg, $eje) {
+    border-radius: $radius;
+    background: $bg;
+    box-shadow: ($eje) ($eje) ($eje*2) $navHover,
+        (-$eje) (-$eje) ($eje*2) $white;
+}
+@mixin green($color){
+    color: $green;
+}
+@mixin orange($color){
+    color: $orange;
+}
+@mixin pink($color){
+    color: $pink;
+}
+@mixin blue($color){
+    color: $mainColor;
+}

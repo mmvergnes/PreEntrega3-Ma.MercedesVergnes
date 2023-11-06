@@ -1,0 +1,132 @@
+.pass-title {
+    h1 {
+        font-size: 2rem;
+        padding: 10px 0;
+        span {
+            color: $mainColor;
+        }
+    }
+
+    a {
+        text-decoration: none;
+        color: $mainColor;
+    }
+}
+
+.plan-container {
+    display: flex;
+    justify-content: space-evenly;
+
+    figure {
+        width: 24%;
+        padding: 0 20px;
+        border: 1px solid $navHover;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: $textCenter;
+        justify-content: $textCenter;
+
+        figcaption {
+            text-align: $textCenter;
+        }
+
+        h2 {
+            &.pack-1 {
+                @include green($green);
+            }
+
+            &.pack-2 {
+                @include orange($orange);
+            }
+
+            &.pack-3 {
+                @include pink($pink);
+            }
+
+            &.pack-4 {
+                @include blue($mainColor);
+            }
+        }
+
+        p {
+            font-size: 0.8rem;
+            text-align: $textCenter;
+        }
+
+        img {
+            &.box {
+                width: 120%;
+            }
+        }
+
+        button {
+            &.buy-btn {
+                @include shadow(20px, $white, 3px);
+                border: 2px solid $mainColor;
+                color: $mainColor;
+                font-weight: $textBold;
+                padding: 5px 10px;
+                margin: 30px 0;
+
+                &:hover {
+                    @include shadow(20px, $mainColor, 3px);
+                    color: $white;
+                }
+            }
+        }
+    }
+}
+
+.img-pack {
+    img {
+        &.box {
+            width: 100%;
+        }
+    }
+}
+
+h2 {
+    &.pack-1 {
+        @include green($green);
+    }
+
+    &.pack-2 {
+        @include orange($orange);
+    }
+
+    &.pack-3 {
+        @include pink($pink);
+    }
+
+    &.pack-4 {
+        @include blue($mainColor);
+    }
+}
+
+
+.modal {
+    .modal-header{
+        border-bottom: none;
+        height: 30px;
+        h1 {
+            .modal-title {
+                font-weight: 700;
+            }
+        }
+    }
+    .modal-body {
+        padding-bottom: 40px;
+        img {
+            width: 50%;
+        }
+    }
+}
+
+.terms-and-conds {
+    padding: 20px 0;
+
+    span {
+        font-size: small;
+    }
+}
