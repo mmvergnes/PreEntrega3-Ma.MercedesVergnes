@@ -1,0 +1,34 @@
+[
+    {
+        "img": "img/box-recarga.png",
+        "alt": "box recarga",
+        "nombre": "Pack Recarga",
+        "clases": "Hasta 20 clases para utilizar cuando quieras.",
+        "valor": "$6.000.-",
+        "descripcion": "Los créditos se podrán canjear por clases al momento de reservarlas. Cada una de las clases tiene su valor en créditos. Según el tipo de clase o el horario, su valor en créditos puede disminuir del valor nominal, pero nunca una clase puede superar ese valor."
+    },
+    {
+        "img": "img/box-actitud.png",
+        "alt": "box actitud",
+        "nombre": "Pack Actitud",
+        "clases": "Hasta 40 clases para utilizar cuando quieras.",
+        "valor": "$12.200.-",
+        "descripcion": "Los créditos se podrán canjear por clases al momento de reservarlas. Cada una de las clases tiene su valor en créditos. Según el tipo de clase o el horario, su valor en créditos puede disminuir del valor nominal, pero nunca una clase puede superar ese valor."
+    },
+    {
+        "img": "img/box-frecuente.png",
+        "alt": "box frecuente",
+        "nombre": "Pack Frecuente",
+        "clases": "Hasta 60 clases para utilizar cuando quieras.",
+        "valor": "$14.400.-",
+        "descripcion": "Los créditos se podrán canjear por clases al momento de reservarlas. Cada una de las clases tiene su valor en créditos. Según el tipo de clase o el horario, su valor en créditos puede disminuir del valor nominal, pero nunca una clase puede superar ese valor."
+    },
+    {
+        "img": "img/box-inicial.png",
+        "alt": "box inicial",
+        "nombre": "Pack Inicial",
+        "clases": "Hasta 10 clases para utilizar cuando quieras.",
+        "valor": "$3.000.-",
+        "descripcion": "Los créditos se podrán canjear por clases al momento de reservarlas. Cada una de las clases tiene su valor en créditos. Según el tipo de clase o el horario, su valor en créditos puede disminuir del valor nominal, pero nunca una clase puede superar ese valor."
+    }
+]
